@@ -824,9 +824,6 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 0;
 }
 
-.home-banner .row > *:first-child {
-  padding-left: 8%;
-}
 
 .subhead {
   display: block;
@@ -2008,7 +2005,7 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 580px) {
   .home-banner {
     background-image: url('../img/bg-mobile.png');
-    height: 950px !important;
+    height: 830px !important;
   }
   .title-section{
     text-align: center;
