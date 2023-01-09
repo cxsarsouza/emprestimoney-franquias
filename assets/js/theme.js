@@ -136,6 +136,7 @@ $('document').ready(function() {
   loop:true,
   margin:26,
   autoplay:true,
+  autoplayTimeout:2000, 
   autoplayHoverPause: true,
   animateOut: 'fadeOut',
   animateIn: 'fadeIn',
