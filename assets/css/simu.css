@@ -55,6 +55,24 @@ body {
     -webkit-animation-delay: 0.33333s;
     animation-delay: 0.33333s;
   }
+.div-simu{
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-simu h2{
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+}
+.div-simu p{
+  max-width: 670px;
+  font-weight: 100 !important;
+  padding-bottom: 10px;
+  color: #d7d7d7 !important;
+}
 .nav-simu{
     display: flex;
     position: absolute;
@@ -115,8 +133,14 @@ body {
 
 .icon-main{
     color: #ff7000;
-    font-size: 40px;
-    margin-right: 15px;
+    font-size: 47px;
+    margin-bottom: 10px;
+}
+
+.icon-main2{
+  color: #ff7000;
+  font-size: 40px;
+  margin-right: 15px;
 }
 
 .noselect {
@@ -140,6 +164,7 @@ body {
       border-radius: 5px;
       box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
       background: #ff7000;
+      text-decoration: none !important;
   }
   
   a, a span {
@@ -164,9 +189,9 @@ body {
       justify-content: center;
   }
   
-  a svg {
+  a i {
       width: 15px;
-      fill: #eee;
+      color:#fff !important;
   }
   
   a:hover {

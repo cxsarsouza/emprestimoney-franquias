@@ -273,27 +273,29 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-primary {
   color: #fff;
   background-color: #ff7000;
-  border-color: transparent;
+  border: 2px solid #ff7000;
   font-size: 18px;
   font-weight: 600;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #003397;
+  color: #ff7000;
+  background-color: transparent;
+  border: 2px solid #ff7000;
 }
 
 .btn-secondary {
   color: #fff;
   background-color: #003397;
-  border-color: transparent;
+  border: 2px solid #003397;
   font-size: 18px;
   font-weight: 600;
 }
 
 .btn-secondary:hover {
-  color: #fff;
-  background-color: #ff7000;
+  color: #003397;
+  background-color: transparent;
+  border: 2px solid #003397;
 }
 
 
@@ -1247,6 +1249,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-footer h6 {
   color: #003397;
+  font-size: 20px;
 }
 
 .page-footer h3,
@@ -1704,11 +1707,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-custo-1{
-  background-color: var(--secondary);
+  background-color:#1656d6;
   border-radius: 10px;
   box-shadow: 6px 6px 27px rgb(0 0 0 / 22%);
   padding: 25px 30px;
-  min-height: 250px;
+  min-height: 290px;
+  margin-bottom: 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1719,7 +1723,7 @@ a.text-dark:hover, a.text-dark:focus {
   transform: scale(1.05);
   transition: 0.5s;
   cursor: pointer;
-  background-color: #ff801f;
+  background-color: #2e6eee;
 }
 
 .card-custo-1 h5{
@@ -1741,17 +1745,18 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-custo-1 i{
-  color:var(--primary);
+  color:#002774;
   margin-right: 7px;
 }
 
 
 .card-custo-2{
-  background-color: var(--primary) ;
+  background-color:#1656d6;
   border-radius: 10px;
   box-shadow: 6px 6px 27px rgb(0 0 0 / 22%);
   padding: 25px 30px;
-  min-height: 250px;
+  min-height: 290px;
+  margin-bottom: 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1759,8 +1764,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-custo-2:hover{
-
-  background-color: #0045cf;
+  background-color: #2e6eee;
   transform: scale(1.05);
   transition: 0.5s;
   cursor: pointer;
@@ -1785,6 +1789,51 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-custo-2 i{
+  color:#002774;
+  margin-right: 7px;
+}
+
+
+.card-custo-3{
+  background-color: var(--primary) ;
+  border-radius: 10px;
+  box-shadow: 6px 6px 27px rgb(0 0 0 / 22%);
+  padding: 25px 30px;
+  min-height: 290px;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-custo-3:hover{
+
+  background-color: #0045cf;
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-custo-3 h5{
+  color:#fff;
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.card-custo-3 p{
+  color:#fff;
+  font-weight: 100;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.card-custo-3 b{
+  color:#fff;
+  font-weight: 600;
+}
+
+.card-custo-3 i{
   color:var(--secondary);
   margin-right: 7px;
 }
@@ -1897,10 +1946,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .vantagens1{
-  text-align: left;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
 }
 
 .vantagens2{
@@ -2026,10 +2077,13 @@ a.text-dark:hover, a.text-dark:focus {
     max-width: 360px !important;
   }
   .card-custo-1{
-    margin: 25px;
+    margin: 20px;
   }
   .card-custo-2{
-    margin: 25px;
+    margin: 20px;
+  }
+  .card-custo-3{
+    margin: 20px;
   }
   
 }

@@ -138,10 +138,10 @@ $('document').ready(function() {
   loop:true,
   margin:26,
   autoplay:true,
-  autoplayTimeout:2000, 
+  autoplayTimeout:2300, 
   autoplayHoverPause: true,
-  animateOut: 'fadeOut',
-  animateIn: 'fadeIn',
+  animateOut: 'zoomOut',
+  animateIn: 'fadeInRight',
   responsiveClass: true,
   responsive:{
     0:{
@@ -173,7 +173,7 @@ $('document').ready(function() {
     autoplay: true,
     autoplayHoverPause: true,
     animateOut: 'zoomOut',
-    animateIn: 'zoomIn',
+    animateIn: 'fadeInRight',
   });
 });
 
