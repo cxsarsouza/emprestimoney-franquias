@@ -131,6 +131,13 @@ body {
     align-items: center;
 }
 
+.text-main2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .icon-main{
     color: #ff7000;
     font-size: 47px;
@@ -212,6 +219,11 @@ body {
       outline: none;
   }
 
+  @media (max-width: 580px) {
+    .text-main2{
+      flex-direction: column;
+  }
+  }
 
   
 
