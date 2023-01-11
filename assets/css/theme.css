@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+html{
+  scroll-behavior: smooth !important;
+}
+
 :root {
   --primary: #003397;
   --accent: #003397;
@@ -1983,6 +1987,28 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer-right{
   text-align: right;
+}
+
+.a-testi{
+  text-decoration: none !important;
+}
+
+.testimonial{
+  text-align: center;
+}
+
+.testimonial:hover{
+  background-color: #fff6ef;
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: 0.25s;
+}
+
+.img-prod{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+
 }
 
 

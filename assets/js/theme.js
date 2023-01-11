@@ -183,6 +183,7 @@ $('document').ready(function() {
     items: 1,
     loop: true,
     autoplay: true,
+    autoplayTimeout:2300, 
     autoplayHoverPause: true,
     animateOut: 'zoomIn',
     animateIn: 'zoomOut',
