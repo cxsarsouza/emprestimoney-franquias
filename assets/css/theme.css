@@ -1958,6 +1958,16 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 18px;
 }
 
+.a-lojas{
+  text-decoration: none !important;
+}
+.a-lojas:hover{
+  text-decoration: none !important;
+}
+.a-lojas:active{
+  text-decoration: none !important;
+}
+
 .vantagens2{
   text-align: right;
   display: flex;
@@ -2011,8 +2021,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 }
 
+.nav-seja{
+  padding-left: 0;
+}
+
 
 @media (max-width: 990px) {
+  .nav-seja{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
   .vantagens1{
     text-align: center;
     flex-direction: column;
